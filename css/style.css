@@ -1,0 +1,145 @@
+html { 
+	height:100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	margin:0;
+	color: #533;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+	background: center top no-repeat fixed;
+	height: 100%;
+	background-image: url(/orsa/bilder/bakgrund.png);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+}
+
+#wrap {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+#header {
+	width: 940px;
+	height: auto;
+	padding-top: 10px;
+	position: relative;
+}
+
+#banner h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#banner h1 { 
+	display: block; 
+	width: auto; 
+	height: 100px; 
+	color: #fff; 
+	text-indent: -10000px; 
+        background: url(/orsa/bilder/orsa.png)  no-repeat top center;
+	background-size: auto 100%;
+}
+
+#menu {
+	clear: both;
+	border-top-left-radius: 20px;	
+	border-top-right-radius: 20px;
+ 	margin-top: 10px;
+	width: 940px;
+	height: 40px;
+	background: #A91107;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+#menu ul li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+    	display: inline-block;
+    	position: relative;
+}
+
+#menu ul li a {
+	float: left;
+	display:inline-block;
+	width: 128px;
+	height: 33px;
+	padding: 7px 0 0 0;
+	font-size: 14px;
+	color: #ffffff;	
+	/*text-shadow: 1px 1px 1px #fff;*/
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	outline: none;
+	border: none;
+	letter-spacing: 1px;
+}
+
+#menu ul li a:hover {
+        color: #13669E;
+        /*text-shadow: 1px 1px 1px #fff*/
+
+}
+
+#menu ul .current {
+	color: #00ff00;
+	/*text-shadow: 1px 1px 1px #fff*/
+}
+
+#menu ul li a { 
+	border-right: 2px solid #FFFFFF; 
+}
+#menu ul li a.sista { 
+	border-right: 0px;
+	padding-right: 0px; 
+}
+
+#menu ul li ul.sub-menu {
+    display:none;
+    position: absolute;
+    top: 40px;
+    left: -4px;
+    width: 132px;
+    background: #A91107;
+    border-bottom-left-radius: 20px;	
+    border-bottom-right-radius: 20px;
+}
+
+#menu ul li ul.sub-menu li a {
+	border-right: 0px;
+}
+
+#menu ul li:hover ul.sub-menu {
+    display:block;
+}
+
+#main {
+	min-height: 100%;
+	clear: both;
+	width: 900px;
+	padding: 30px 20px 30px; 
+	background-color:rgba(255,255,255,0.8);
+	overflow-x: hidden;
+	overflow-y: auto;
+	box-shadow: 10px 0px 100px -7px rgba(0,0,0,0.5), -10px 0px 100px -7px rgba(0,0,0,0.5);
+	border-bottom-left-radius: 20px; 
+	border-bottom-right-radius: 20px;
+	margin-bottom: 100px;
+}
+
+#main p {
+	margin-bottom: 0px
+}
